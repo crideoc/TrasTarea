@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">TrassTarea</string>
+    <string name="fraseInicial">Tus tareas, tu ritmo, tu éxito</string>
+    <string name="empezar">EMPEZAR</string>
+    <string name="titulo">Título de la Tarea</string>
+    <string name="quedan">Quedan:</string>
+    <string name="dias">días</string>
+    <string name="Acerca_de">Acerca de ...</string>
+    <string name="salir">Salir</string>
+    <string name="hasta_pronto">Hasta pronto</string>
+    <string name="instituto" translatable="false">IES Trassierra</string>
+    <string name="autor" translatable="false">Cristian Delgado Ocaña</string>
+    <string name="centro">Centro</string>
+    <string name="anioActual">Año actual</string>
+    <string name="autorProyecto" translatable="false">Autor</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="crear_tarea">Crear tarea</string>
+    <string name="Descripcion">Descripción</string>
+    <string name="Editar">Editar</string>
+    <string name="Borrar">Borrar</string>
+    <string name="fecha">Fecha creacion</string>
+    <string name="fechaObjetivo">Fecha objetivo</string>
+    <string name="Prioritario">Prioritario</string>
+    <string name="no_iniciada">No iniciada</string>
+    <string name="iniciada">Iniciada</string>
+    <string name="avanzada">Avanzada</string>
+    <string name="casi_finalizada">Casi finalizada</string>
+    <string name="finalizada">Finalizada</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="volver">Volver</string>
+    <string name="guardar">Guardar</string>
+    <string name="rellenarDatos">Debes rellenar todos los datos para poder continuar.</string>
+    <string name="errorDatos">Error</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="editar_tarea">Editar tarea</string>
+    <string name="NoTareas">No hay tareas disponibles</string>
+</resources>

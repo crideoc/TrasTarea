@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contenedorFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp">
+
+
+    <EditText
+        android:id="@+id/txtFechaObjetivo"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="55dp"
+        android:clickable="true"
+        android:ems="10"
+        android:focusable="false"
+        android:fontFamily="@font/alfa_slab_one"
+        android:hint="@string/fechaObjetivo"
+        android:inputType="date"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:textColorHint="@color/terciario"
+        app:layout_constraintEnd_toEndOf="@+id/txtFechaCreacion"
+        app:layout_constraintStart_toStartOf="@+id/txtFechaCreacion"
+        app:layout_constraintTop_toBottomOf="@+id/txtFechaCreacion" />
+
+    <EditText
+        android:id="@+id/txtFechaCreacion"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="55dp"
+        android:clickable="true"
+        android:ems="10"
+        android:focusable="false"
+        android:fontFamily="@font/alfa_slab_one"
+        android:hint="@string/fecha"
+        android:inputType="date"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:textColorHint="@color/terciario"
+        app:layout_constraintEnd_toEndOf="@+id/txtTitulo"
+        app:layout_constraintStart_toStartOf="@+id/txtTitulo"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitulo" />
+
+    <EditText
+        android:id="@+id/txtTitulo"
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:fontFamily="@font/alfa_slab_one"
+        android:hint="@string/titulo"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColorHint="@color/terciario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/spProgreso"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="55dp"
+        android:background="@color/gris"
+        android:spinnerMode="dialog"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/txtFechaObjetivo"
+        app:layout_constraintStart_toStartOf="@+id/txtFechaObjetivo"
+        app:layout_constraintTop_toBottomOf="@+id/txtFechaObjetivo" />
+
+    <CheckBox
+        android:id="@+id/cbPrioritario"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="55dp"
+        android:button="@android:drawable/checkbox_off_background"
+        android:buttonTint="@color/terciario"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="@string/Prioritario"
+        android:textAlignment="center"
+        android:textColor="@color/terciario"
+        android:textColorLink="#F16161"
+        app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        app:layout_constraintEnd_toEndOf="@+id/spProgreso"
+        app:layout_constraintStart_toStartOf="@+id/spProgreso"
+        app:layout_constraintTop_toBottomOf="@+id/spProgreso" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="505dp" />
+
+    <Button
+        android:id="@+id/btnSiguienteFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:text="@string/siguiente"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

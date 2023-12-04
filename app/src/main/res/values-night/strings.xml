@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="volver">volver</string>
+    <string name="rellenarDatos">Debes rellenar todos los datos para poder continuar.</string>
+    <string name="errorDatos">Error</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="editar_tarea">Editar tarea</string>
+    <string name="NoTareas">No hay tareas disponibles</string>
+</resources>

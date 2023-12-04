@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/contenedorFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+
+        <Button
+            android:id="@+id/btnSiguienteFragment"
+            android:layout_width="130dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/siguiente"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <LinearLayout
+            android:layout_width="449dp"
+            android:layout_height="310dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.25"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.17000002">
+
+            <EditText
+                android:id="@+id/txtTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:fontFamily="@font/alfa_slab_one"
+                android:hint="@string/titulo"
+                android:inputType="text"
+                android:textAlignment="center"
+                android:textColorHint="@color/terciario"
+                tools:ignore="MissingConstraints" />
+
+            <EditText
+                android:id="@+id/txtFechaObjetivo"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:clickable="true"
+                android:ems="10"
+                android:focusable="false"
+                android:fontFamily="@font/alfa_slab_one"
+                android:hint="@string/fechaObjetivo"
+                android:inputType="date"
+                android:maxLines="1"
+                android:textAlignment="center"
+                android:textColorHint="@color/terciario" />
+
+            <EditText
+                android:id="@+id/txtFechaCreacion"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:clickable="true"
+                android:ems="10"
+                android:focusable="false"
+                android:fontFamily="@font/alfa_slab_one"
+                android:hint="@string/fecha"
+                android:inputType="date"
+                android:maxLines="1"
+                android:textAlignment="center"
+                android:textColorHint="@color/terciario" />
+
+            <CheckBox
+                android:id="@+id/cbPrioritario"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:button="@android:drawable/checkbox_off_background"
+                android:buttonTint="@color/terciario"
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="@string/Prioritario"
+                android:textAlignment="center"
+                android:textColor="@color/terciario"
+                android:textColorLink="#F16161" />
+
+            <Spinner
+                android:id="@+id/spProgreso"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/gris"
+                android:spinnerMode="dialog"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

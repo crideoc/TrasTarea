@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="volver">Return</string>
+    <string name="rellenarDatos">You must fill out all the information to continue.</string>
+    <string name="errorDatos">Error</string>
+    <string name="descripcion">Description</string>
+    <string name="editar_tarea">Edit task</string>
+    <string name="NoTareas">No tasks available</string>
+    <string name="app_name">TrassTarea</string>
+    <string name="fraseInicial">Your tasks, your rhythm, your success</string>
+    <string name="empezar">START</string>
+    <string name="titulo">Task Title</string>
+    <string name="quedan">Days left:</string>
+    <string name="dias">days</string>
+    <string name="Acerca_de">About</string>
+    <string name="salir">Exit</string>
+    <string name="hasta_pronto">See you soon</string>
+    <string name="centro">School</string>
+    <string name="anioActual">Current year</string>
+    <string name="aceptar">Accept</string>
+    <string name="crear_tarea">Create task</string>
+    <string name="Descripcion">Description</string>
+    <string name="Editar">Edit</string>
+    <string name="Borrar">Delete</string>
+    <string name="fecha">Creation date</string>
+    <string name="fechaObjetivo">Target date</string>
+    <string name="Prioritario">Priority</string>
+    <string name="no_iniciada">Uninitiated</string>
+    <string name="iniciada">Started</string>
+    <string name="avanzada">Advanced</string>
+    <string name="casi_finalizada">Almost finished</string>
+    <string name="finalizada">Finished</string>
+    <string name="siguiente">Next</string>
+    <string name="guardar">Save</string>
+</resources>
